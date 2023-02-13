@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://www.clinisys.com/app/themes/clinisys/src/img/favicons/Clinisys_favicon-32x32_rgb.png">
+    <link rel="stylesheet" href="hello.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="home.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="careers.html">Careers</a></li>
+        </ul>
+    </div>
+    <marquee behavior="alternate" direction="left">
+        <div id="showName">
+            <p></p>
+        </div>
+    </marquee>
+
+    <center>
+        <h1 style="margin: 0%; padding: 0%; font-size: larger; letter-spacing: 3px; color: indigo;">AVAILABLE DOCTORS
+        </h1>
+    </center>
+    <table style="width: 100%; font-size: 20px;">
+        <tr>
+            <th>Name</th>
+
+            <th>Specialization</th>
+
+            <th>Date</th>
+        </tr>
+        <tr>
+            <td>Dr. Dipak Mishra</td>
+
+            <td>Gastrologist</td>
+            <td class="Date"></td>
+        </tr>
+        <tr>
+            <td>Dr. Subrata Mukherjee</td>
+
+            <td>Oncologist</td>
+            <td class="Date"></td>
+        </tr>
+        <tr>
+            <td>Dr. Anindita Das</td>
+
+            <td>General Physician</td>
+            <td class="Date"></td>
+        </tr>
+        <tr>
+            <td>Dr. Soham Das</td>
+
+            <td>Orthopedic</td>
+            <td class="Date"></td>
+        </tr>
+        <tr>
+            <td>Dr. Aditi Chatterjee</td>
+
+            <td>Dermatologist</td>
+            <td class="Date"></td>
+        </tr>
+    </table>
+
+    <div>
+        <center>
+            <h3 style="color: indigo; letter-spacing: 3px; font-size: 24px;">Book Appointment</h3>
+        </center>
+        <center>
+            <select name="doctors" id="doctors">
+                <option value="Dr. Dipak Mishra">Dr. Dipak Mishra : Gastrologist</option>
+                <option value="Dr. Subrata Mukherjee">Dr. Subrata Mukherjee : Oncologist</option>
+                <option value="Dr. Anindita Das">Dr. Anindita Das : General Physician</option>
+                <option value="Dr. Soham Das">Dr. Soham Das : Orthopedic</option>
+                <option value="Dr. Aditi Chatterjee">Dr. Aditi Chatterjee : Dermatologist</option>
+            </select>
+        </center>
+    </div>
+
+    <div>
+        <center>
+            <button class="btn-book" onclick="Booked()">
+                Book
+            </button>
+        </center>
+    </div>
+
+    <div style="margin-top: 50px;">
+        <marquee behavior="alternate" direction="left"
+            style="font-size: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: indigo;">The One
+            delivering
+            labs to new heights</marquee>
+    </div>
+
+
+</body>
+
+<script type="text/javascript" src="site.js"></script>
+
+</html>
