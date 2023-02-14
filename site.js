@@ -10,6 +10,7 @@ function gotoRegister()
 
 const urlParams = new URLSearchParams(window.location.search);
 document.getElementById("showName").innerHTML = "Welcome " + urlParams.get('fname') + " " + urlParams.get('lname');
+document.getElementById("showEmail").innerHTML = urlParams.get('email');
 
 var td = document.getElementsByTagName("td");
 
