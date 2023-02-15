@@ -62,6 +62,25 @@ img {
     border-radius: 10px;
 }
 
+.figures img:hover
+{
+    animation: image-hovering 0.7s;
+    animation-fill-mode: forwards;
+    cursor: cell;
+}
+
+@keyframes image-hovering {
+    from
+    {
+        transform: scale(1);
+    }
+    to
+    {
+        transform: scale(1.1);
+        box-shadow: 10px 10px 10px indigo;
+    }
+}
+
 .navbar li
 {
     display: inline-flex;
